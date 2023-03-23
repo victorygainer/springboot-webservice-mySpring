@@ -2,8 +2,8 @@ package com.intellijoe.services.mySpring.config.auth;
 
 import com.intellijoe.services.mySpring.domain.user.User;
 import com.intellijoe.services.mySpring.domain.user.UserRepository;
-import com.intellijoe.services.mySpring.web.dto.OAuthAttributes;
-import com.intellijoe.services.mySpring.web.dto.SessionUser;
+import com.intellijoe.services.mySpring.config.auth.dto.OAuthAttributes;
+import com.intellijoe.services.mySpring.config.auth.dto.SessionUser;
 import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

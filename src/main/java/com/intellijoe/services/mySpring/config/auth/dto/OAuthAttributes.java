@@ -1,4 +1,4 @@
-package com.intellijoe.services.mySpring.web.dto;
+package com.intellijoe.services.mySpring.config.auth.dto;
 
 import com.intellijoe.services.mySpring.domain.user.Role;
 import com.intellijoe.services.mySpring.domain.user.User;

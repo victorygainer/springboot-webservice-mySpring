@@ -11,6 +11,7 @@ import jakarta.persistence.*;
 
 @Getter
 @NoArgsConstructor
+@Table(name = "tblUser")
 @Entity
 public class User extends BaseTimeEntity {
     @Id
