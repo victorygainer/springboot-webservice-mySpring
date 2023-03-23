@@ -1,10 +1,11 @@
 package com.intellijoe.services.mySpring.domain.posts;
 
 import com.intellijoe.services.mySpring.domain.BaseTimeEntity;
-import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+
+import jakarta.persistence.*;
 
 @Getter
 @NoArgsConstructor
