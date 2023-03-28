@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.intellijoe.services.mySpring.web.PostsApiControllerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-28T08:47:23" hostname="jeongseung-guui-MacBookAir.local" time="0.053">
+  <properties/>
+  <testcase name="Posts_등록된다" classname="com.intellijoe.services.mySpring.web.PostsApiControllerTest" time="0.036"/>
+  <testcase name="Posts_수정된다" classname="com.intellijoe.services.mySpring.web.PostsApiControllerTest" time="0.017"/>
+  <system-out><![CDATA[2023-03-28T17:47:23.766+09:00  INFO 44606 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-03-28T17:47:23.766+09:00  INFO 44606 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-28T17:47:23.767+09:00  INFO 44606 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+responseEntity : <302 FOUND Found,[X-Content-Type-Options:"nosniff", X-XSS-Protection:"0", Cache-Control:"no-cache, no-store, max-age=0, must-revalidate", Pragma:"no-cache", Expires:"0", Location:"http://localhost:54574/login", Content-Length:"0", Date:"Tue, 28 Mar 2023 08:47:23 GMT", Keep-Alive:"timeout=60", Connection:"keep-alive"]>
+Hibernate: insert into posts (author, content, created_date, modified_date, title) values (?, ?, ?, ?, ?)
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+Hibernate: delete from posts where id=?
+2023-03-28T17:47:23.801+09:00  INFO 44606 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2023-03-28T17:47:23.801+09:00  INFO 44606 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2023-03-28T17:47:23.801+09:00  INFO 44606 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+Hibernate: insert into posts (author, content, created_date, modified_date, title) values (?, ?, ?, ?, ?)
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0 where p1_0.id=?
+Hibernate: update posts set author=?, content=?, created_date=?, modified_date=?, title=? where id=?
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+Hibernate: delete from posts where id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

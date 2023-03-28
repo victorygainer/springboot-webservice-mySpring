@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.intellijoe.services.mySpring.domain.posts.PostsRepositoryTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2023-03-28T08:47:23" hostname="jeongseung-guui-MacBookAir.local" time="0.08">
+  <properties/>
+  <testcase name="게시글저장_불러오기" classname="com.intellijoe.services.mySpring.domain.posts.PostsRepositoryTest" time="0.072"/>
+  <testcase name="BaseTimeEntity_등록" classname="com.intellijoe.services.mySpring.domain.posts.PostsRepositoryTest" time="0.007"/>
+  <system-out><![CDATA[Hibernate: insert into posts (author, content, created_date, modified_date, title) values (?, ?, ?, ?, ?)
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+Hibernate: delete from posts where id=?
+Hibernate: insert into posts (author, content, created_date, modified_date, title) values (?, ?, ?, ?, ?)
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+>>>>>>>>>>>>>>>>> createDate = 2023-03-28T17:47:23.295969, modifiedDate = 2023-03-28T17:47:23.295969
+Hibernate: select p1_0.id,p1_0.author,p1_0.content,p1_0.created_date,p1_0.modified_date,p1_0.title from posts p1_0
+Hibernate: delete from posts where id=?
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
