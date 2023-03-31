@@ -3,6 +3,9 @@ language: java
 jdk:
   - openjdk version "17.0.6" 2023-01-17 LTS
 
+global:
+  - JAVA_HOME=/etc/alternatives/java-17-amazon-corretto
+
 branches:
   only:
     - master
