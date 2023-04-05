@@ -46,12 +46,6 @@ deploy:
     region: ap-northeast-2
     wait-until-deployed: true
 
-  - provider: script
-    script: "chmod +x ./scripts/deploy.sh && ./scripts/deploy.sh"
-    skip_cleanup: true
-    wait-until-deployed: true
-
-
 # CI 실행 완료 시 메일로 알람
 notifications:
   email:
