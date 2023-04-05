@@ -3,10 +3,6 @@
 REPOSITORY=/home/ec2-user/app/step2
 PROJECT_NAME=springboot-webservice-myspring
 
-echo "> Git Pull"
-
-git pull
-
 echo "> Build 파일 복사"
 
 cp $REPOSITORY/zip/*.jar $REPOSITORY/home/
