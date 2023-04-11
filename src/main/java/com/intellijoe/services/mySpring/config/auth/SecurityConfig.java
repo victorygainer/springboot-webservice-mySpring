@@ -26,7 +26,7 @@ public class SecurityConfig {
             .headers().frameOptions().disable()
                 .and()
                     .authorizeHttpRequests()
-                    .requestMatchers("/", "/h2-console/**", "/css/**", "/images/**", "/js/**").permitAll()
+                    .requestMatchers("/", "/h2-console/**", "/css/**", "/images/**", "/js/**", "/profile").permitAll()
                     .requestMatchers("/api/v1/**").hasRole(Role.USER.name())
                     .anyRequest().authenticated()
                 .and()
